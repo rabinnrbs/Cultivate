@@ -62,7 +62,7 @@ $( document ).ready(function() {
     updateContent(curPos, nextPos, lastItem);
 
   });
-
+//sdhofjisdjf
   // swipe support for touch devices
   var targetElement = document.getElementById('viewport'),
       mc = new Hammer(targetElement);
