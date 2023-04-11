@@ -97,6 +97,7 @@ $( document ).ready(function() {
         updateContent(curPos, nextPos, lastItem);
       }
       else {
+        nextPos = lastItem;
         updateNavs(nextPos);
         updateContent(curPos, nextPos, lastItem);
       }
@@ -108,7 +109,6 @@ $( document ).ready(function() {
         updateContent(curPos, nextPos, lastItem);
       }
       else {
-        nextPos = lastItem;
         updateNavs(nextPos);
         updateContent(curPos, nextPos, lastItem);
       }
